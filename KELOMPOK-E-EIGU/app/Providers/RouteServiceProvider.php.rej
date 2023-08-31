@@ -1,0 +1,10 @@
+diff a/KELOMPOK-E-EIGU/app/Providers/RouteServiceProvider.php b/KELOMPOK-E-EIGU/app/Providers/RouteServiceProvider.php	(rejected hunks)
+@@ -17,7 +17,7 @@
+      *
+      * @var string
+      */
+-    public const HOME = '/';
++    public const HOME = '/home';
+ 
+     /**
+      * Define your route model bindings, pattern filters, and other route configuration.

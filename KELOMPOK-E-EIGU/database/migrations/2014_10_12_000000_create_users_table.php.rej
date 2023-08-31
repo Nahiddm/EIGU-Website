@@ -1,0 +1,9 @@
+diff a/KELOMPOK-E-EIGU/database/migrations/2014_10_12_000000_create_users_table.php b/KELOMPOK-E-EIGU/database/migrations/2014_10_12_000000_create_users_table.php	(rejected hunks)
+@@ -11,6 +11,7 @@
+      */
+     public function up(): void
+     {
++        
+         Schema::create('users', function (Blueprint $table) {
+             $table->id();
+             $table->string('firstname');
